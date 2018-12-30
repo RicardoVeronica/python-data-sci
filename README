@@ -1,0 +1,5 @@
+para crear la imagen:
+docker build -t image_name .
+
+para correr el contenedor:
+docker run -p 80:8000 image_name
